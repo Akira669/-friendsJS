@@ -7,18 +7,18 @@
         <title>friendsJS</title>
         
         <!-- Bootstrap core CSS -->
-        <link href="css/bootstrap.min.css" rel="stylesheet">
+        <link href="{{ asset('../assets/css/bootstrap.min.css') }}" rel="stylesheet">
 
         <!-- Custom fonts for this template -->
-        <link href="css/all.min.css" rel="stylesheet" type="text/css">
+        <link href="{{ asset('../assets/css/all.min.css') }}" rel="stylesheet">
         <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
         <link href='https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
 
         <!-- Plugin CSS -->
-        <link href="css/magnific-popup.css" rel="stylesheet">
+        <link href="{{ asset('../assets/css/magnific-popup.css') }}" rel="stylesheet">
 
         <!-- Custom styles for this template -->
-        <link href="css/creative.min.css" rel="stylesheet">
+        <link href="{{ asset('../assets/css/creative.min.css') }}" rel="stylesheet">
 
     </head>
     <body id="page-top">
@@ -124,8 +124,8 @@
       <div class="container-fluid p-0">
         <div class="row no-gutters popup-gallery">
           <div class="col-lg-4 col-sm-6">
-            <a class="portfolio-box" href="img/portfolio/fullsize/1.jpg">
-              <img class="img-fluid" src="img/portfolio/thumbnails/1.jpg" alt="">
+            <a class="portfolio-box" href="{{ asset('../assets/img/portfolio/fullsize/1.jpg') }}">
+              <img class="img-fluid" src="{{ asset('../assets/img/portfolio/thumbnails/1.jpg') }}" alt="">
               <div class="portfolio-box-caption">
                 <div class="portfolio-box-caption-content">
                   <div class="project-category text-faded">
@@ -139,8 +139,8 @@
             </a>
           </div>
           <div class="col-lg-4 col-sm-6">
-            <a class="portfolio-box" href="img/portfolio/fullsize/2.jpg">
-              <img class="img-fluid" src="img/portfolio/thumbnails/2.jpg" alt="">
+            <a class="portfolio-box" href="{{ asset('../assets/img/portfolio/fullsize/2.jpg') }}">
+              <img class="img-fluid" src="{{ asset('../assets/img/portfolio/thumbnails/2.jpg') }}" alt="">
               <div class="portfolio-box-caption">
                 <div class="portfolio-box-caption-content">
                   <div class="project-category text-faded">
@@ -154,8 +154,8 @@
             </a>
           </div>
           <div class="col-lg-4 col-sm-6">
-            <a class="portfolio-box" href="img/portfolio/fullsize/3.jpg">
-              <img class="img-fluid" src="img/portfolio/thumbnails/3.jpg" alt="">
+            <a class="portfolio-box" href="{{ asset('../assets/img/portfolio/fullsize/3.jpg') }}">
+              <img class="img-fluid" src="{{ asset('../assets/img/portfolio/thumbnails/3.jpg') }}" alt="">
               <div class="portfolio-box-caption">
                 <div class="portfolio-box-caption-content">
                   <div class="project-category text-faded">
@@ -169,8 +169,8 @@
             </a>
           </div>
           <div class="col-lg-4 col-sm-6">
-            <a class="portfolio-box" href="img/portfolio/fullsize/4.jpg">
-              <img class="img-fluid" src="img/portfolio/thumbnails/4.jpg" alt="">
+            <a class="portfolio-box" href="{{ asset('../assets/img/portfolio/fullsize/4.jpg') }}">
+              <img class="img-fluid" src="{{ asset('../assets/img/portfolio/thumbnails/4.jpg') }}" alt="">
               <div class="portfolio-box-caption">
                 <div class="portfolio-box-caption-content">
                   <div class="project-category text-faded">
@@ -184,8 +184,8 @@
             </a>
           </div>
           <div class="col-lg-4 col-sm-6">
-            <a class="portfolio-box" href="img/portfolio/fullsize/5.jpg">
-              <img class="img-fluid" src="img/portfolio/thumbnails/5.jpg" alt="">
+            <a class="portfolio-box" href="{{ asset('../assets/img/portfolio/fullsize/5.jpg') }}">
+              <img class="img-fluid" src="{{ asset('../assets/img/portfolio/thumbnails/5.jpg') }}" alt="">
               <div class="portfolio-box-caption">
                 <div class="portfolio-box-caption-content">
                   <div class="project-category text-faded">
@@ -199,8 +199,8 @@
             </a>
           </div>
           <div class="col-lg-4 col-sm-6">
-            <a class="portfolio-box" href="img/portfolio/fullsize/6.jpg">
-              <img class="img-fluid" src="img/portfolio/thumbnails/6.jpg" alt="">
+            <a class="portfolio-box" href="{{ asset('../assets/img/portfolio/fullsize/6.jpg') }}">
+              <img class="img-fluid" src="{{ asset('../assets/img/portfolio/thumbnails/6.jpg') }}" alt="">
               <div class="portfolio-box-caption">
                 <div class="portfolio-box-caption-content">
                   <div class="project-category text-faded">
@@ -249,15 +249,16 @@
     </section>
 
     <!-- Bootstrap core JavaScript -->
-    <script src="js/jquery.min.js"></script>
-    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="{{ asset('../assets/js/jquery.min.js') }}"></script>
+    <script src="{{ asset('../assets/js/bootstrap.bundle.min.js') }}"></script>
 
     <!-- Plugin JavaScript -->
-    <script src="js/jquery.easing.min.js"></script>
-    <script src="js/scrollreveal.min.js"></script>
-    <script src="js/jquery.magnific-popup.min.js"></script>
+    <script src="{{ asset('../assets/js/jquery.easing.min.js') }}"></script>
+    <script src="{{ asset('../assets/js/scrollreveal.min.js') }}"></script>
+    <script src="{{ asset('../assets/js/jquery.magnific-popup.min.js') }}"></script>
 
     <!-- Custom scripts for this template -->
-    <script src="js/creative.min.js"></script>
+    <script src="{{ asset('../assets/js/creative.min.js') }}"></script>
+
     </body>
 </html>
